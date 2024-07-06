@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
-    <h2>Gestion de servicios de hotel</h2>
-    <p>Elimina los servicios que no necesitas durante tu estancia</p>
-    <ul id="servicios-lista"></ul>
+    <h1>Gestion de servicios de hotel</h1>
+    <section>
+      <h2>Deshabilita los servicios que no están disponibles en el hotel</h2>
+      <ul id="servicios-activos"></ul>
+    </section>
+    <section>
+      <h2>Habilita los servicios que están disponibles</h2>
+      <ul id="servicios-deshabilitados"></ul>
+    </section>
+    <section>
+      <h2>Agrega servicios entregados a tu hotel</h2>
+      <input id="in-servicio" type="text" />
+      <button id="btn-agregar">agregar</button>
+    </section>
 
     <script src="./assets/app.js"></script>
   </body>
